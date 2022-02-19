@@ -577,6 +577,29 @@ section {
 
 /* Über-uns-Bereich */
 
+.ceo {
+  max-width: 250px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.boards {
+  max-width: 750px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#certificate-logo {
+  max-width: 150px;
+  height: auto;
+}
+
 #über-uns-bereich {
   background-color: #FFF;
 }
@@ -604,11 +627,18 @@ section {
   #über-uns-container > img {
     right: 50px;
   }
+  .boards {
+    width: 450px;
+  }
 }
+
 
 @media (max-width: 1280px) {
   #über-uns-container > img {
     right: 0;
+  }
+  .boards {
+    width: 275px;
   }
 }
 
