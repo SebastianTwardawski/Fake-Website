@@ -61,12 +61,59 @@
 		<!-- <img src="src/img/shark-gae8dbcdad_1920.jpg" alt="Header-Banner"
 	</header>
 
-	<!--To create -->
-	<div style="height: 400px; color: red">
-	<p>
-		This page is currently under construction!
-	</p>
-	</div>
+	<!-- Kontakt-Seite -->
+
+	<section id="Kontakt-bereich">
+
+		<div class="container">
+
+			<div class="row">
+				<div class="col-6">
+					<header class="intro-container">
+						<h1>Contact</h1>
+						<p>Do not hesitate to contact us.</p>
+					</header>
+				</div>
+			</div>
+
+		<form id="kontakt-formular" action="contact.html" method="post">
+
+		<div class="row">
+			<div class="col-3">
+				<label for ="vorname" class="screenreader">First name</label>
+				<input id="vorname" type="text" name="vorname" placeholder="First name">
+			</div>
+
+			<div class="col-3">
+			<label for ="nachname" class="screenreader">Last name</label>
+			<input id="nachname" type="text" name="nachname" placeholder="Last name">
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-6">
+			<label for ="email" class="screenreader">E-Mail</label>
+			<input id="email" type="text" name="email" placeholder="E-Mail" pattern="(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\u0022(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*\u0022)@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])" title="Enter a valid email address!">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-6">
+			<label for="message" class="screenreader">Message</label>
+			<textarea id="message" name="message" rows="8" cols="80" placeholder="Message"></textarea>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-6">
+				<button class="btn-typ-3" type="submit" name="absendenButton">Submit</button>
+			</div>
+		</div>
+
+		</div>
+		</form>
+	</section>
 
 	<!-- Footer -->
 
@@ -82,7 +129,5 @@
 			</div>
 		</div>
 	</footer>
-
-	</body>
 
 </html>
