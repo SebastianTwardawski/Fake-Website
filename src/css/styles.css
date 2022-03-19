@@ -697,6 +697,18 @@ section {
   }
 }
 
+/* Impressum */
+
+#impressum {
+  text-align: center;
+}
+
+#impressum a {
+  color: #3D3F45;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 
 /* GRIT-SYSTEM */
 
